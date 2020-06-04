@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список книг</title>
+</head>
+<body>
+  <div class="cover-div"></div>
+  <div style="display: flex; align-items: center; justify-content: center;">
+    <div class="header" style="display: flex; align-items: center; justify-content: center; flex-direction: column;">
+      <h2 class="zidh">Вписать книгу</h2>
+      <button id="createBook" class="zidh"><img src="plus.svg" alt="create book" id="img-butt"></button>
+    </div>
+    </div>
+      <div class="book-input">
+        <h3>Напиши Название</h3>
+        <input type="text" name="" id="book" required>
+        <h3>Напиши Автора</h3>
+        <input type="text" name="" id="author" required>
+        <h3>Напиши Дату</h3>
+        <input type="number" name="" id="year" required>
+        <div style="margin: 20px;"><button id="add">Добавить</button>
+          <button id="close">Закрыть</button>
+        </div>
+      </div>
+      <div class="book-list"> </div>
+    <script src="index.js"></script>
+</body>
+</html>

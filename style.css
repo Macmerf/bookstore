@@ -1,0 +1,107 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    text-decoration: none;
+}
+
+button{
+    width: 82px;
+    background-color: rgb(160, 120, 110);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+
+#img-butt{
+    width: 40px;
+    transition: width 0.3s;
+}
+
+#img-butt:hover{
+    width: 46px;
+}
+
+
+
+.header{
+    width: 250px;
+    height: 300px;
+    background-color: brown;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000; 
+    box-shadow: 5px 5px 15px 5px #000000;
+    color: gold;
+}
+
+#createBook{
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color:gold;
+    outline: none;
+    transition: width 0.3s;
+}
+
+#createBook:hover {
+    width: 83px;
+}
+
+
+input{
+    height: 1rem;
+}
+
+.book-input{
+    width: 250px;
+    height: 350px;
+    border: solid 5px;
+    border-radius: 10px;
+    z-index: 9002;
+    position: fixed;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+    top: 40px;
+    background-color: rgb(175, 150, 144);
+    display: none;
+}
+
+input{
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+.book-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-width: 320px;
+    
+}
+
+.bookb{
+    border: solid 5px black;
+    border-radius: 10px;
+    margin: 20px;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.cover-div{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9000;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    opacity: 0.5;
+    display: none;
+}
